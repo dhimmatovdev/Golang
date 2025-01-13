@@ -10,5 +10,12 @@ import ("fmt")
 func main() {
 	var a int 
 	sum:=0
+	fmt.Scan(&a)
+	for i:=0; i<a; i++ {
+		if i%2==0 {
+			sum++
+		}
+	}
+	fmt.Print(sum)
 	
 }
