@@ -10,9 +10,9 @@ import ("fmt")
 func main() {
 	var a int
 	fmt.Scan(&a)
-	var sum int 
-	for i:=0; i<=a; i++ {
-		sum +=i
+	var sum int
+	for i := 0; i <= a; i += 2 {
+		sum += i
 	}
 	fmt.Print(sum)
 }
